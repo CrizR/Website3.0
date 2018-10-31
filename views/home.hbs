@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chris Risley</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106814101-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-106814101-1');
+    </script>
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/milligram.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<header>{{> header}}</header>
+
+<body style="background: white; padding: 1%">
+
+
+<div style="margin-top: 2%" class="container">
+    <h3>Chris Risley</h3>
+    <div class="row">
+        <div class="column">{{bio}}</div>
+    </div>
+</div>
+
+<div style="margin-top: 2%;" class="container">
+    <h3 style="margin-top: 2%">Education</h3>
+    <img style="float: left;" src="{{education.logo}}" width="40px" height="30px">
+    <a href={{education.college_website}}> {{education.college}}</a>
+    <pre><code>
+    Major: {{education.major}}
+    Graduation Date: {{education.graduation_year}}
+    </code></pre>
+</div>
+
+<div style="margin-top: 2%;" class="container">
+    <h3 style="margin-top: 2%">Experience</h3>
+    {{#each experience}}
+        <div class="row">
+            <img style="float: left" src="{{logo}}" width="40px" height="30px">
+            <div class="column">
+                <a href={{website}}>{{company}}</a>, {{title}}
+                <div>
+        <pre><code>
+    {{#each bullets}}
+    [x] {{this}}
+    {{/each}}
+        </code></pre>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</div>
+
+
+<div style="margin-top: 2%;" class="container">
+    <h3 style="margin-top: 2%">Skills</h3>
+
+    <div style="margin-left: 2%" class="column">
+    <h4 class="subtitle">Languages</h4>
+    <pre><code> Advanced Languages:  &emsp;&emsp;{{#each skills.languages.advanced}}{{this}} {{/each}}</code></pre>
+    <pre><code> Proficient Languages:&emsp;&emsp;{{#each skills.languages.proficient}}{{this}} {{/each}}</code></pre>
+    <pre><code> Familiar Languages:  &emsp;&emsp;{{#each skills.languages.familiar}}{{this}} {{/each}}</code></pre>
+    </div>
+
+    <div style="margin-left: 2%" class="column">
+        <h4 class="subtitle">Web</h4>
+        <pre><code>&emsp;&emsp;{{#each skills.web}}{{this}} {{/each}}</code></pre>
+    </div>
+
+    <div style="margin-left: 2%" class="column">
+        <h4 class="subtitle">Databases</h4>
+        <pre><code>&emsp;&emsp;{{#each skills.databases}}{{this}} {{/each}}</code></pre>
+    </div>
+
+    <div style="margin-left: 2%" class="column">
+        <h4 class="subtitle">Infrastructure</h4>
+        <pre><code>&emsp;&emsp;{{#each skills.infrastructure}}{{this}} {{/each}}</code></pre>
+    </div>
+
+    <div style="margin-left: 2%" class="column">
+        <h4 class="subtitle">Other</h4>
+        <pre><code>&emsp;&emsp;{{#each skills.other}}{{this}} {{/each}}</code></pre>
+    </div>
+</div>
+
+<div style="margin-top: 2%;" class="container">
+    <h3 style="margin-top: 2%">Interests</h3>
+    <div class="row">
+        <div class="column">{{interests.info}}</div>
+    </div>
+</div>
+
+</body>
+<footer>
+    <!--{{> footer}}-->
+</footer>
+</html>

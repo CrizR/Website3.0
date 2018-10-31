@@ -1,0 +1,126 @@
+{
+  "bio": "Hey! Nice to meet ya. My name's Chris. I'm a student and an explorer (in all ways). I'm currently working my way through an undergraduate computer science degree at Northeastern University where I've learned everything from the foundations of CS to advanced algorithms, database management, software development and more. Take a look at my skills below. Outside of CS, I call myself an explorer because I chase after new experiences, some of which include rock climbing, mountaineering, music production and travel.",
+  "education": {
+    "college": "Northeastern University",
+    "logo": "neu-logo.png",
+    "college_website": "https://www.northeastern.edu/",
+    "major": "Candidate for Bachelor of Science in Computer Science",
+    "graduation_year": 2020,
+    "courses": [
+
+    ]
+  },
+  "experience": [
+    {
+      "company": "VMware",
+      "website": "https://www.vmware.com/",
+      "logo": "vmware-logo.png",
+      "title": "Software Engineer (Intern)",
+      "bullets": [
+        "Will be working on the vCloud Director"
+      ]
+    },
+    {
+      "company": "Cisco Systems",
+      "website": "https://www.cisco.com/",
+      "logo": "cisco.png",
+      "title": "Software Engineer (Intern)",
+      "bullets": [
+        "Worked with Angular.js, Node.js, and Java (Spring) to improve both back end processes and front end navigation in the Cisco Defense Orchestrator (software solution to security policy management).",
+        "Weekly demos to CDO team",
+        "Complete integration into scrum team",
+        "Contributed to a major front end navigation milestone that directly impacted CDO’s users"
+      ]
+    },
+    {
+      "company": "Bank of New York Mellon",
+      "website": "https://www.eagleinvsys.com/",
+      "logo": "bny.png",
+      "title": "Software Engineer (Intern)",
+      "bullets": [
+        "Built CI/CD pipeline for Python projects. Used Gradle, Bash, Groovy, and Jenkins in the process.",
+        "Independently developed a continuous data validation pipeline that helped improve and guarantee that our data was production ready. Used Infoworks, SQL, Python, Bash, Gradle, and Jenkins to develop it.",
+        "Developed a command line ETL process between our HBase database and Elasticsearch database in Python.",
+        "Maintained spool queries in charge of the transfer of data from multiple legacy databases to our Hadoop cluster.",
+        "Actively engaged in best Agile Development practices while working as a fully functional scrum team member.",
+        "Developed an Elasticsearch command line interface that helped streamline imports and exports to/from our Elasticsearch clusters.",
+        "Built a Kibana utility tool to transfer internal .kibana configurations (including index mappings) from one cluster to another."
+      ]
+    },
+    {
+      "company": "Inference Solutions",
+      "website": "https://www.inferencesolutions.com/",
+      "logo": "infer.png",
+      "title": "Software Engineer (Intern)",
+      "bullets": [
+        "Tested Software UI and identified bugs",
+        "Developed Alexa Skill in Python for company software (Studio Skill)",
+        "Built website in HTML, CSS and PHP that visualized client IVR usage statistics (Studio Statistics)",
+        "Improved website loading times by 4-5 sec. with good design and algorithmic improvements.",
+        "Communicated directly with the senior software developer (remotely), CMO, and CEO"
+      ]
+    },
+    {
+      "company": "Architect Partners LLC",
+      "website": "http://architectpartners.com/",
+      "logo": "ac.png",
+      "title": "Analyst (Intern)",
+      "bullets": [
+        "Optimized Salesforce contact upload process",
+        "Analyzed tech sector for prospective clients",
+        "Maintained content on company website in WordPress after every relevant merger and acquisition.",
+        "M&A Alert: Salesforce Acquires Demandware",
+        "Vista Equity Partners Acquires Marketo"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": {
+      "advanced": [
+        "Python",
+        "Java",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Bash"
+      ],
+      "proficient": [
+        "C",
+        "C++",
+        "PHP",
+        "Golang"
+      ],
+      "familiar": [
+        "MIPS",
+        "Groovy"
+      ]
+    },
+    "web": [
+      "Flask",
+      "Node.js",
+      "Angular.js",
+      "HTML",
+      "CSS"
+    ],
+    "databases": [
+      "SQL",
+      "MongoDB",
+      "Firebase",
+      "Elasticsearch",
+      "Hadoop"
+    ],
+    "infrastructure": [
+      "Jenkins",
+      "AWS",
+      "Heroku",
+      "Github"
+    ],
+    "other": [
+      "Git",
+      "Agile Methodologies"
+    ]
+  },
+  "interests": {
+    "info": "I enjoy rock climbing, mountaineering, dirt biking, and hiking. I also produce music with a software called Ableton. At Northeastern, I'm a part of the outdoor's club (NUHOC), ski club (NU Downhillers), and the rock climbing club. I'm hoping to get into mountain biking if I have the time. My dream is to one day climb Denali. On a more technical side, I'm a huge supporter of blockchain and have recently been both trading and developing technology that interacts with cryptocurrency."
+  }
+}
